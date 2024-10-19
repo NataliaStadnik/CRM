@@ -5,6 +5,9 @@
 - Адаптиная верстка на все разрешения экрана
 - pixel-perfect
 
+- Ccылка на макет в Figma: [CRM](https://www.figma.com/design/rcta5K2ySOhnskjG1D82jL/CRM)
+
+
 ## Запуск приложения:
 
 1.  Перейдите в папу "crm-backend"
