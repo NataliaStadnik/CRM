@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Система управления контактными данными клиентов</title>
+  <link href="img/favicon.svg" rel="shortcut icon">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/media.css" rel="stylesheet">
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__wrapper">
+      <div class="container header__container">
+        <svg class="logo">
+          <use xlink:href="sprite.svg#favicon" x="0" y="0"></use>
+        </svg>
+        <div class="input-wrap">
+          <input class="data header__data" id="search-input" type="text" name="search" placeholder="Введите запрос">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <h1 class="visually-hidden">
+      Система управления контактными данными клиентов
+    </h1>
+
+    <section class="clients">
+      <div class="container clients__container">
+        <h2 class="main__title">
+          Клиенты
+        </h2>
+      </div>
+
+      <div class="outer container">
+        <div class="table-wrapper ">
+          <div class="total-block spinner"></div>
+          <table class="table">
+            <thead class="table__head head">
+              <tr class="head__row">
+
+                <th class="gray-text head__cell">
+                  <button class="head__btn head__btn--purple arrow" id="ID">ID</button>
+                </th>
+
+                <th class="gray-text head__cell">
+                  <button class="head__btn" id="NameClient">
+                    <span class="arrow arrow--name arrow--mr">Фамилия Имя Отчество</span> <span class="sort">А-Я</span>
+                  </button>
+                </th>
+
+                <th class="gray-text head__cell">
+                  <button class="head__btn arrow arrow--date arrow--top" id="DateCreate">Дата и&nbsp;время
+                    создания</button>
+                </th>
+
+                <th class="gray-text head__cell">
+                  <button class="head__btn arrow arrow--changes arrow--top" id="DateChange">Последние изменения</button>
+                </th>
+
+                <th class="gray-text head__cell">
+                  <div class="head__btn">Контакты</div>
+                </th>
+
+                <th class="gray-text head__cell">
+                  <div class="head__btn">Действия</div>
+                </th>
+              </tr>
+            </thead>
+
+            <tbody class="table__body body">
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="container container__btn">
+        <button class="btn clients__btn" id="addClient">
+          Добавить клиента
+        </button>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

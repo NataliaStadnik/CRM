@@ -1,0 +1,152 @@
+@media (max-width: 992px) {
+
+  .container {
+    padding: 0 20px;
+  }
+
+  .table__data--date {
+    display: block;
+  }
+
+  thead th:nth-child(1),
+  tbody td:nth-child(1) {
+    width: 11%;
+  }
+
+  thead th:nth-child(2),
+  tbody td:nth-child(2) {
+    width: 30%;
+  }
+
+  thead th:nth-child(3),
+  tbody td:nth-child(3) {
+    width: 13.5%;
+  }
+
+  thead th:nth-child(4),
+  tbody td:nth-child(4) {
+    width: 13.5%;
+  }
+
+  thead th:nth-child(5),
+  tbody td:nth-child(5) {
+    width: 17.5%;
+  }
+
+  .head__btn {
+    padding-right: 15px;
+  }
+
+  .input-wrap {
+    width: 80%;
+  }
+
+  .table-wrapper {
+    overflow-x: hidden;
+  }
+
+}
+
+
+
+@media (max-width: 720px) {
+
+  .table-wrapper {
+    width: 728px;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .logo {
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+  }
+
+  .input-wrap {
+    display: none;
+  }
+
+  .header__wrapper {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .main__title {
+    margin-bottom: 4px;
+    font-size: 18px;
+    line-height: 24.51px;
+  }
+
+  .clients {
+    padding-top: 30px;
+  }
+
+  .outer {
+    overflow-x: scroll;
+  }
+
+}
+
+
+
+@media (max-width: 470px) {
+
+  .black-wrapper {
+    padding: 0 10px;
+  }
+
+  .modal-window {
+    width: 100%;
+  }
+
+  .modal-window__data {
+    max-width: 100%;
+  }
+
+  .modal-window__wrapper {
+    padding: 22px 15px 27px;
+  }
+
+  .data--delete {
+    max-width: 100%;
+  }
+
+  .select {
+    width: 110px;
+    padding: 10px 7px;
+  }
+
+  .list-select {
+    width: 110px;
+  }
+
+  .wrapper-for-contacts {
+    padding: 22px 15px 27px;
+    margin-right: 0;
+  }
+
+  .choose-contacts__input {
+    flex-basis: 100%;
+    width: 80%;
+  }
+
+  .choose-contacts__input::placeholder {
+    content: 'Введите данные';
+  }
+
+  .delete-contact {
+    flex-shrink: 0;
+  }
+
+  .close {
+    top: 3px;
+    right: 3px;
+  }
+}
